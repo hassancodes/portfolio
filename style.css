@@ -34,7 +34,7 @@ html,body{
 
 section{
     margin:0.5rem;
-    /* padding: rem; */
+    padding: 1rem;
 }
 
 /* section 1 start from here */
@@ -118,4 +118,15 @@ display:none;
 .skills-img{
     width: 4rem;
     height:4rem;
+}
+
+.cards img{
+    width: 100%;
+    height:100%;
+    border-radius: 1rem;
+}
+
+.cards p{
+    text-align:center;
+    font-size:1.5rem ;
 }
