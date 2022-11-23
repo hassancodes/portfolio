@@ -9,12 +9,16 @@
     box-sizing: border-box;
 }
 
-html,
-body {
+html,body {
     height: 100%;
     font-family: Taviraj, sans-serif;
 
 }
+
+.punchline{
+    position:absolute;
+}
+
 
 /* Testing start from here */
 .section-1 {
@@ -22,32 +26,40 @@ body {
 
 }
 
-.section-2 {
-    background-color: antiquewhite;
+.section-padding{
+    margin-bottom:8rem;
+    text-align: center;
 }
-
 /* Testing ends from here */
 
 
-section {
-    text-align: center;
-}
 
 
 
 
-
-section {
-    margin: 0.5rem;
-    /* padding-bottom: 1rem; */
-}
 
 /* section 1 start from here */
 
 .portfolio-image {
-    width: 15rem;
+    width: 17rem;
+    /* background-color: red; */
+    margin-right:1rem;
+}
+.image-quote{
+    /* background-color: green; */
+    text-align: right;
+    padding-top:7rem;
+    
 }
 
+.image-quote button{
+    position:absolute;
+    top:50%;
+    left:10%;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    font-family: taviraj,serif;
+}
 
 h1 {
     font-size: 2rem;
