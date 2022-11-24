@@ -16,6 +16,10 @@ body {
 
 }
 
+.section-1{
+margin-bottom: 2rem;
+}
+
 .punchline {
     position: absolute;
     text-align: left;
@@ -24,13 +28,19 @@ body {
 }
 
 .punchline .small-head {
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 1.5vh;
 }
 
 .punchline h1 {
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: 4vh;
     line-height: 1rem;
 }
+.punchline h2 {
+    font-size: 3vh;
+}
+
 
 .punchline h4 {
     margin-bottom: -0.5rem;
@@ -58,17 +68,23 @@ body {
 
 
 
+.image-quote {
+    position: relative;
+    /* background-color: red; */
+}
 
-
-/* section 1 start from here */
-.image-quote {position: relative;}
 .image-quote .link {
     position: absolute;
     margin-top: 9rem;
-    left:1rem;
+    left:10vw;
 
 
 }
+
+
+
+
+/* section 1 start from here */
 
 .portfolio-image {
     width: 70%;
