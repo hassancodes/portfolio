@@ -9,16 +9,37 @@
     box-sizing: border-box;
 }
 
-html,body {
+html,
+body {
     height: 100%;
     font-family: Taviraj, sans-serif;
 
 }
 
-.punchline{
-    position:absolute;
+.punchline {
+    position: absolute;
+    text-align: left;
+    margin-left: 1rem;
+
 }
 
+.punchline .small-head {
+    font-size: 1rem;
+}
+
+.punchline h1 {
+    font-size: 3rem;
+    line-height: 1rem;
+}
+
+.punchline h4 {
+    margin-bottom: -0.5rem;
+}
+
+.punchline hr {
+    color: black;
+    background-color: black;
+}
 
 /* Testing start from here */
 .section-1 {
@@ -26,10 +47,11 @@ html,body {
 
 }
 
-.section-padding{
-    margin-bottom:8rem;
+.section-padding {
+    margin-bottom: 8rem;
     text-align: center;
 }
+
 /* Testing ends from here */
 
 
@@ -39,26 +61,37 @@ html,body {
 
 
 /* section 1 start from here */
+.image-quote {position: relative;}
+.image-quote .link {
+    position: absolute;
+    margin-top: 9rem;
+    left:1rem;
+
+
+}
 
 .portfolio-image {
-    width: 17rem;
+    width: 70%;
     /* background-color: red; */
-    margin-right:1rem;
-}
-.image-quote{
-    /* background-color: green; */
-    text-align: right;
-    padding-top:7rem;
-    
+    margin-right: 1rem;
+
 }
 
-.image-quote button{
-    position:absolute;
-    top:50%;
-    left:10%;
+.image-quote {
+    /* background-color: green; */
+    text-align: right;
+    padding-top: 7rem;
+
+
+}
+
+.image-quote button {
+    position: absolute;
+    top: 50%;
+    left: 10%;
     padding: 0.6rem 2rem;
     border-radius: 10px;
-    font-family: taviraj,serif;
+    font-family: taviraj, serif;
 }
 
 h1 {
@@ -180,7 +213,7 @@ h2 {
 
 
 .small__footer {
-    margin:0;
+    margin: 0;
     background-color: grey;
 }
 
@@ -194,5 +227,14 @@ h2 {
 .footer-img {
     width: 3rem;
     height: 3rem;
-    margin:0 1.5rem 0 1.5rem;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+
+@media only screen and (min-width: 700px) {
+
+    html,body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
