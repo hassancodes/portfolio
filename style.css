@@ -29,16 +29,16 @@ margin-bottom: 2rem;
 
 .punchline .small-head {
     /* font-size: 1rem; */
-    font-size: 1.5vh;
+    font-size: 2vh;
 }
 
 .punchline h1 {
     /* font-size: 3rem; */
-    font-size: 4vh;
-    line-height: 1rem;
+    font-size: 6vh;
+    line-height: 2rem;
 }
 .punchline h2 {
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 
