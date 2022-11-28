@@ -18,7 +18,7 @@ revburger.addEventListener('click' , ()=>{
     console.log("burger back clicked")
         gsap.to(".nav-list", {x:"100%"});
         gsap.to(".nav-list", {stroke:"white"})
-        // gsap.set("body", {overflow:"hidden"});
+        gsap.set("body", {overflow:"hidden"});
         gsap.set("body", {overflowY:"scroll"});
         gsap.set(".burger", {color:"black"});
         gsap.to(".section-2",{x:0});
