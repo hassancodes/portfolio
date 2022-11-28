@@ -40,8 +40,8 @@ revburger.addEventListener('click' , ()=>{
     if(!revburger.classList.contains("active")){
         gsap.to(".nav-list", {x:"100%"});
         gsap.to(".nav-list", {stroke:"white"})
-        // gsap.set("body", {overflow:"auto"});
-        // gsap.set("body", {overflowX:"hidden"});
+        gsap.set("body", {overflow:"auto"});
+        gsap.set("body", {overflowX:"hidden"});
         gsap.set(".burger", {color:"black"});
         gsap.to(".section-2",{x:0});  
        }
