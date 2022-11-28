@@ -23,7 +23,9 @@ html,
 body {
     height: 100%;
     font-family: Taviraj, sans-serif;
+    max-width: 100vh;
 }
+
 
 
 li{
