@@ -18,20 +18,20 @@
                     <h1>thedevhassan</h1>
                 </div>
 
-                <!-- <ul class="nav-list">
-                <li class="nav-elements">
-                    Home
-                </li>
-                <li class="nav-elements">
-                    Projects
-                </li>
-                <li class="nav-elements">
-                    Get a Quote
-                </li>
-                <li class="nav-elements">
-                    Socials
-                </li>
-            </ul> -->
+                <div class="nav-list">
+                    <li class="nav-elements">
+                        Home
+                    </li>
+                    <li class="nav-elements">
+                        Projects
+                    </li>
+                    <li class="nav-elements">
+                        Get a Quote
+                    </li>
+                    <li class="nav-elements">
+                        Socials
+                    </li>
+                </div>
                 <div>
                     <svg class="burger" viewBox="0 0 100 80" width="50" height="50">
                         <rect width="100" height="3"></rect>
@@ -70,7 +70,10 @@
         <!-- section-3 Skills -->
 
         <section class="section-padding">
-            <h2 class="heading">Tools I use</h2>
+            <div class="section-heading">
+                <h2 class="heading">Tools I use</h2>
+            </div>
+
             <li class="tools-list">
                 <ul><img class="tools-img" src="/images/python.png" alt=""></ul>
                 <ul><img class="tools-img" src="/images/java.png" alt=""></ul>
@@ -87,8 +90,8 @@
 
         <!-- section -->
 
-        <section class="section-padding">
-            <div>
+        <section class="section-padding skill-animation-start">
+            <div class="section-heading">
                 <h1>Skills</h1>
             </div>
             <li class=skills-list>
@@ -109,11 +112,12 @@
                     <p>Discord Bots</p>
                 </ul>
             </li>
+            <div class="skill-animation-end"></div>
         </section>
 
         <!-- Projects Section -->
         <section class="section-padding">
-            <div>
+            <div class="section-heading">
                 <h1>Projects</h1>
             </div>
             <div class="cards">
@@ -142,13 +146,15 @@
 
         <!-- Section Get a Quote -->
         <section class="section-padding">
-            <h3>Getting a quote is Free</h3>
+            <div class="section-heading">
+                <h2>Getting a quote is Free</h2>
+            </div>
             <div>
-                <button>
+                <button class="cta-button1">
                     Get a Quote
                 </button>
                 <br>
-                <button>
+                <button class="cta-button2">
                     Hire Me
                 </button>
             </div>
@@ -192,6 +198,15 @@
             </div>
         </section>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"
+        integrity="sha512-gsEItzcNkWxfxHjr4BaEZAd9YuRWYjxnj7c/yukcZ0/nWehUb5TjJNyyv1ApCU2DFH/qgw+stFZHPOKnoQnIuQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"
+        integrity="sha512-ko44b+LlYXwGZI6Gey6Tgrhew9JEPdSE6m7FqDyGGPDW+dDOjsCElEtiUIRRtCXRNHwKheBCnHCQSMdUz/pgkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js">
+    </script>
 
 </body>
 

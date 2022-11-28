@@ -3,6 +3,16 @@
 /* 300px */
 /* @import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300;400&display=swap'); */
 
+:root{
+    --primary-color1:#10B981; 
+    --primary-color2: #34D399;
+    --primary-color3: #6EE7B7;
+    --primary-color4:#A7F3D0;
+    --primary-color5: #D1FAE5;
+    --primary-color6: #ECFDF5;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +24,55 @@ body {
     height: 100%;
     font-family: Taviraj, sans-serif;
 
+}
+
+
+li{
+    list-style: none;
+}
+
+.cta-button1{
+    padding:0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+}
+
+.cta-button2{
+    padding:0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+
+/* burger button click */
+
+
+.nav-list{
+    /* display:none; */
+    position:absolute;
+    background-color: white;
+    width:100%;
+    height:100vh;
+    left:0;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    padding-top:12rem;
+    padding-bottom: 12rem;
+    transform: translateX(100%);
+    list-style: none;
+    /* overflow-y :hidden; */
+    /* min-height: 100vh; */
+}
+
+
+
+.section-heading{
+    margin-bottom: 3rem;
 }
 
 .section-1{
@@ -34,6 +93,8 @@ margin-bottom: 2rem;
 
 .punchline h1 {
     /* font-size: 3rem; */
+    /* z-index: 10000;
+     */
     font-size: 6vh;
     line-height: 2rem;
 }
@@ -53,7 +114,7 @@ margin-bottom: 2rem;
 
 /* Testing start from here */
 .section-1 {
-    background-color: grey;
+    background-color: var(--primary-color1);
 
 }
 
@@ -88,6 +149,7 @@ margin-bottom: 2rem;
 
 .portfolio-image {
     width: 70%;
+
     /* background-color: red; */
     margin-right: 1rem;
 
@@ -105,9 +167,13 @@ margin-bottom: 2rem;
     position: absolute;
     top: 50%;
     left: 10%;
+    border: none;
     padding: 0.6rem 2rem;
     border-radius: 10px;
     font-family: taviraj, serif;
+    font-size: 1rem;
+    color:white;
+    background-color:var(--primary-color1);
 }
 
 h1 {
@@ -123,18 +189,17 @@ h2 {
 }
 
 
-.nav-list {
+/* .nav-list {
     display: flex;
     display: none;
-}
+} */
 
 .navigation {
     display: flex;
     align-items: right;
-    background-color: rgb(0, 172, 181);
+    background-color: var(--primary-color1);
     justify-content: space-between;
     padding: 0.5rem;
-    margin: 0.5rem;
 }
 
 .logo {
@@ -142,11 +207,13 @@ h2 {
     align-items: center;
 }
 
-.burger {
+svg {
 
     cursor: pointer;
-    z-index: 20;
+    z-index: 10;
 }
+
+
 
 
 .tools-list {
@@ -211,6 +278,8 @@ h2 {
 .section__footer {
     display: flex;
     justify-content: center;
+    padding: 3rem;
+    background-color: var(--primary-color4);
 }
 
 
@@ -230,7 +299,7 @@ h2 {
 
 .small__footer {
     margin: 0;
-    background-color: grey;
+    background-color: var(--primary-color1);
 }
 
 .small-footer-socials {
@@ -250,7 +319,7 @@ h2 {
 @media only screen and (min-width: 700px) {
 
     html,body {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
