@@ -8,7 +8,6 @@ burger.addEventListener('click' , ()=>{
         gsap.set("body", {overflow:"auto"});
         gsap.set("body", {overflowY:"hidden"});
         gsap.fromTo(".section-2", {opacity:0} , {opacity:1,x:"-10000",delay:0.10, stagger:-10})
-        window.onscroll = function () { window.scrollTo()};
     
 });
 
@@ -23,7 +22,6 @@ revburger.addEventListener('click' , ()=>{
         gsap.set("body", {overflow:"hidden"});
         gsap.set(".burger", {color:"black"});
         gsap.to(".section-2",{x:0});
-        window.onscroll = function () { window.scrollTo(-100, -100); };  
     
 });
 
