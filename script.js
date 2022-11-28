@@ -6,8 +6,9 @@ burger.addEventListener('click' , ()=>{
         gsap.to(".nav-list", {x:"0%"});
         gsap.to(".nav-list", {stroke:"black", y:"0"})
         gsap.fromTo(".nav-list .nav-elements", {opacity:0} , {opacity:1,y:"25",delay:0.15, stagger:0.35})
+        gsap.set("body", {overflow:"auto"});
         gsap.set("body", {overflow:"hidden"});
-        gsap.fromTo(".section-2", {opacity:0} , {opacity:1,x:"-500",delay:0.10, stagger:-10})
+        gsap.fromTo(".section-2", {opacity:0} , {opacity:1,x:"-10000",delay:0.10, stagger:-10})
     
 });
 
@@ -28,6 +29,8 @@ revburger.addEventListener('click' , ()=>{
 
 
 
+
+
 // animation onloading the window
 window.onload=()=>{
     // setting the initial state
@@ -41,3 +44,4 @@ window.onload=()=>{
     gsap.fromTo(".link", {opacity:0} , {opacity:1,x:"0",delay:0.45, stagger:0.35})
     gsap.fromTo(".punchline", {opacity:0} , {opacity:1,x:"0",delay:0.30, stagger:0.35})
 }
+
