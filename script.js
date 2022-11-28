@@ -1,4 +1,3 @@
-
 const burger = document.querySelector("section svg");
 burger.addEventListener('click' , ()=>{
     // burger.classList.toggle('active');
@@ -7,8 +6,9 @@ burger.addEventListener('click' , ()=>{
         gsap.to(".nav-list", {stroke:"black", y:"0"})
         gsap.fromTo(".nav-list .nav-elements", {opacity:0} , {opacity:1,y:"25",delay:0.15, stagger:0.35})
         gsap.set("body", {overflow:"auto"});
-        gsap.set("body", {overflow:"hidden"});
+        gsap.set("body", {overflowY:"hidden"});
         gsap.fromTo(".section-2", {opacity:0} , {opacity:1,x:"-10000",delay:0.10, stagger:-10})
+        window.onscroll = function () { window.scrollTo()};
     
 });
 
@@ -22,7 +22,8 @@ revburger.addEventListener('click' , ()=>{
         gsap.to(".nav-list", {stroke:"white"})
         gsap.set("body", {overflow:"hidden"});
         gsap.set(".burger", {color:"black"});
-        gsap.to(".section-2",{x:0});  
+        gsap.to(".section-2",{x:0});
+        window.onscroll = function () { window.scrollTo(-100, -100); };  
     
 });
 
