@@ -21,11 +21,12 @@
 
 html,
 body {
-    /* height: 100%; */
     font-family: Taviraj, sans-serif;
-    /* overflow-x:hidden !important; */
-}
 
+}
+/* body{
+    overflow-x:hidden ;
+} */
 
 
 li{
@@ -322,6 +323,17 @@ svg {
     /* Reddish shadow with 1rem blur */
     box-shadow: 0.2rem 0.2rem 0.3rem var(--primary-color4);
 }
+
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 @media only screen and (min-width: 700px) {
 
