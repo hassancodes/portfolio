@@ -1,0 +1,36 @@
+
+
+
+.form-section{
+    /* background-color: yellow; */
+    display:flex;
+    justify-content: center;
+    /* padding-left:10%; */
+}
+textarea{
+    resize:none;
+}
+.quote-div{
+    width : 80%;
+    margin-top:3rem;
+    margin-bottom:6rem;
+    
+
+    /* background-color: yellow; */
+
+}
+.quote-form{
+
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.quote-form input,textarea,button{
+    padding:0.5rem;
+    margin:1rem;
+    border-radius: 0.2rem;
+    border: 1px solid gray;
+
+}
+
