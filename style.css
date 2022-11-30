@@ -31,24 +31,37 @@ html, body{
     overflow-x: hidden;
 }
 
-
+a{
+    text-decoration: none;
+    color:;
+}
 li{
     list-style: none;
 }
 
 .cta-button1{
-    padding:0.5rem 1.5rem 0.5rem 1.5rem;
+    padding:0.7rem 2rem 0.7rem 2rem;
     font-size: 1rem;
     margin:1rem;
+    border:1px solid black;
     border-radius: 0.5rem;
+    background-color: var(--primary-color2);
 }
 
 .cta-button2{
     padding:0.5rem 1.5rem 0.5rem 1.5rem;
     font-size: 1rem;
+    border:0.5px solid gray;
     border-radius: 0.5rem;
+    background-color: var(--primary-color5);
 }
 
+.link a{
+text-decoration: none;
+color: black;
+font-size: 1.1rem;
+
+}
 
 /* burger button click */
 
@@ -339,6 +352,13 @@ body::-webkit-scrollbar {
   body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+  }
+
+  /* universal hover function*/
+  .hover-universal:hover{
+    transition: all .2s ease-in-out; 
+    transform: scale(1.02);
+
   }
 
 @media only screen and (min-width: 700px) {
