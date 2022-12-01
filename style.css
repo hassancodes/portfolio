@@ -136,6 +136,8 @@ margin-bottom: 2rem;
 /* Testing start from here */
 .section-1 {
     background-color: var(--primary-color1);
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+
 
 }
 
@@ -219,7 +221,7 @@ h2 {
 .navigation {
     display: flex;
     align-items: right;
-    background-color: var(--primary-color1);
+    /* background-color: var(--primary-color1); */
     justify-content: space-between;
     padding: 0.5rem;
 }
@@ -302,6 +304,7 @@ svg {
     justify-content: center;
     padding: 3rem;
     background-color: var(--primary-color4);
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 
 
@@ -360,6 +363,16 @@ body::-webkit-scrollbar {
     transform: scale(1.02);
 
   }
+
+
+
+.success-submit{
+    display: flex;
+    justify-content: center;
+    margin-top:50%;
+}
+
+
 
 @media only screen and (min-width: 700px) {
 

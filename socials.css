@@ -1,0 +1,29 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.socials{
+margin-top:3rem;
+margin-bottom:3rem ;
+display:flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;
+
+}
+
+.socials-inner{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding:0.5rem;
+    /* margin-right: 3rem; */
+}
+
+.object{
+    margin-right:1rem;
+    font-size: 20px;
+}
