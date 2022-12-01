@@ -287,6 +287,9 @@ svg {
 
 }
 
+.grid-item{
+    margin-bottom: 2rem;
+}
 .cards div {
     text-align: center;
 }
