@@ -1,0 +1,92 @@
+
+@media only screen and (min-width: 700px) {
+
+    html,body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+    .section-1{
+        border-radius: 0rem 0rem 0rem 0rem !important;
+    }
+    
+
+
+    .burger{
+        display:none;
+    }
+
+    .nav-list{
+            position:static;
+            background-color: var(--primary-color1);
+            width:40%;
+            height:0%;
+            /* left:0;
+            top:0; */
+            display:flex;
+            flex-direction: row;
+            align-items:right;
+            justify-content: space-between;
+            font-size:17px;
+            padding-top:1rem;
+            padding-bottom: 1rem;
+            transform: translateX(30%);
+            list-style: none;
+            /* overflow-x :hidden; */
+        
+    }
+
+    .navigation .logo{
+        margin-left: 2rem;
+    }
+
+    .go-back{
+        display:none;
+    }
+
+    /* section-2 */
+
+
+    /* section-2 */
+    .section-2{
+        
+        display:flex;
+        justify-content: center;
+
+
+        
+
+    }
+
+    .small-head{
+        
+        font-size: 20px !important;
+    }
+    .section-2 h2{
+        font-size: 50px;
+    }
+    .section-2 .developer{
+        font-size: 70px;
+    }
+
+    .div-2{
+        /* background-color: yellow; */
+        padding : 0px 150px 0px 150px;
+        display:flex;
+        justify-content: space-between;
+    
+    }
+    .div-2 .image-quote{
+        /* margin-left: 100px; */
+        width: 40rem;
+
+    }
+    .div-2 .punchline{
+        z-index: 1;
+    }
+
+
+
+
+}
