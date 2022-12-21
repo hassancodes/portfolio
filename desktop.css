@@ -86,7 +86,13 @@
         z-index: 1;
     }
 
+/* section 3 starts from here */
+.section-3{
+    /* background-color: red; */
+    width: 80vh;
+    margin:auto;
 
+}
 
 
 }
